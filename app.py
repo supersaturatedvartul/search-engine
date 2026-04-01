@@ -3,19 +3,13 @@ content =  ["Python is an multi-paradigm Language. It is used in Machine Learnin
 a = input("Enter the Language you want to search about:")
 a = a.lower()
 results = []
-for i in range(0,len(content)):
-    if a in content[i].lower():
-        results.append(content[i])
-for j in range(0,len(results)):
-    if len(results) == 0:
-        print(f"We can't find out about {a.capitalize()}")
-    else:
-        print(results[j])
-    
+for i in content:
+    if a in i.lower():
+        results.append(i)
 
-# while True:
-#     results = []
-#     search = input("What do you want to search about Programming Langs:")
-#     for i in search:
-#         if i.find()
+if len(results) == 0:
+        print(f"No results found for {a.capitalize()}")
+else:
+    for j in range(0,len(results)):
+            print(results[j])
     
