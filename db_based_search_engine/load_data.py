@@ -10,4 +10,3 @@ for i in content:
     if i:
         cursor.execute("INSERT into contentable (content) VALUES (%s)",(i.lower(),))
 conn.commit()
-conn.close()
