@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.searchfield {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 80px;
+}
+
+#searchinput {
+    font-size: 30px;
+    border-radius: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#searchbtn {
+    border: solid 1px black;
+    border-radius: 10px;
+    background-color: rgb(76, 76, 248);
+    color: white;
+    transition: ease-in 0.2s;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#searchbtn:hover {
+    background-color: rgb(123, 123, 252);
+    color: white;
+}
+
+#searchbtn:active {
+    background-color: rgb(1, 1, 159);
+    color: white;
+}
