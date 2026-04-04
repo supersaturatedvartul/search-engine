@@ -48,3 +48,21 @@ h1 {
     background-color: rgb(1, 1, 159);
     color: white;
 }
+
+.resultpage  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.resultpage p  {
+    padding: 20px;
+    border-bottom: solid 1px black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 800px;
+    background-color: #f5f5f5;
+}

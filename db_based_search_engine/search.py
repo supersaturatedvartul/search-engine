@@ -39,7 +39,7 @@ def search():
                 "content":i[0],
                 "score":i[1]
             })
-        return jsonify(format)
+        return jsonify({"results":format})
 
 if __name__ == "__main__":
     app.run(debug=True)
